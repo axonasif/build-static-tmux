@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifacts
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "/tmp/tmux-static/bin/tmux.*.gz"
+          artifacts: "/tmp/tmux-static/bin/tmux.*"
           replacesArtifacts: true
           allowUpdates: true
           bodyFile: "README.md"
